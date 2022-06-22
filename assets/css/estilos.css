@@ -157,7 +157,30 @@ h3{
     background: #007635; }
     .myButton:active {
     background: #00250a; }
-    
+.transform{
+    background-color: green;
+    transform: translate(10px, 10px);
+}
+
+.animateSeb{
+    transition: font-size 1s;
+} 
+
+.animateSeb:hover{
+    font-size: 30px;
+} 
+
+@keyframes animacion {
+    0%{letter-spacing: 1em; transform: translateY(300px);}
+      100%{transform: translateY(0px);}
+}
+.animacion{
+    animation-name: animacion;
+    animation-duration: 2.2s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+}
 /*Fin main*/
 
 /*Inicio footer*/
