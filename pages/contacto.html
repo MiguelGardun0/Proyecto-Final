@@ -7,26 +7,35 @@
     <link rel="stylesheet" href="../assets/css/animate.css" />
     <script src="../assets/js/jquery.slim.min.js"></script>
     <script src="../assets/js/bootstrap.bundle.min.js"></script>
-    <script src="../assets/js/wow.js"></script>c
+    <script src="../assets/js/wow.js"></script>
 
     <link rel="stylesheet" href="../assets/css/estilos.css" />
     <script>
         new WOW().init();
     </script>
+</head>
 <!--Inicio body-->
 <body>
-    <header>
 <!--inicio header-->
-        <a href="../index.html"><img src="../assets/img/sb5.jpg" alt="Sebastian vettel logo" width="6%"></a>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-                <li><a href="historia.html">Historia</a></li>
-                <li><a href="productos.html">Productos</a></li>
-                <li><a href="fundacion.html">Fundación</a></li>
-            </ul>   
-        </nav>
+    <header>
+    <div class=" imgHeader d-flex justify-content-center col-sm-12">
+        <a href="index.html"><img src="../assets/img/sb5.jpg"></a>
+    </div>
+    <nav class="navbar navbar-dark bg-dark justify-content-end">
+        <button class="navbar-toggler navHeight" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">          
+             <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a  class="nav-link" href="../index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                <li class="nav-item"><a class="nav-link" href="historia.html">Historia</a></li>
+                <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
+                <li class="nav-item"><a class="nav-link" href="fundacion.html">Fundación</a></li>
+            </ul>  
+        </div>
+    </nav>
+    <div class="header-wrapper"></div>
     </header>
 <!--Fin header-->
     <main>
@@ -35,7 +44,7 @@
                 <h1>Contacto</h1>
             </article>
         </section>
-        <section>
+        <div class="container formulario">
             <form action="contacto.html" method="GET" enctype="application/x-www-form-urlencoded">
                 <fieldset>
                   <legend>Datos Personales</legend>
@@ -68,16 +77,17 @@
                   <input type="reset" value="Limpiar formulario"/>
                 </div>
             </form>
-        </section>
+        </div>
     </main>
     <footer>
-        <div>
-            <img class="wow animate_animated animate__zoomIn" data-wow-duration="1s" src="../assets/img/sv5.png" alt="Sebastian vettel logo" width="5%" id="footer--img">
-            <a href="../pages/productos.html">Compras</a>
+        <div >
+            <img src="../assets/img/sv5.png" alt="Sebastian vettel logo" width="5%" id="footer--img" class="wow animate_animated animate__zoomIn" data-wow-duration="1s">
+            <a href="productos.html">Compras</a>
             <p>Redes Sociales</p>
-            <a href="../pages/contacto.html">Contacto</a>  
+            <a href="contacto.html">Contacto</a>  
         </div>
-    </footer>  
+        <div class="footer-wrapper"></div>
+    </footer>
 </body>
 <!--Fin body-->
 </html>
