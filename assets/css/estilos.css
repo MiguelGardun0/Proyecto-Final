@@ -61,7 +61,7 @@ height:6rem;
 
 /*Inicio main*/
 main{
-    margin-bottom: 5px;
+    padding-bottom: 5px;
 }
 #tituloHistoria{
     margin-top:0px;
@@ -99,7 +99,7 @@ h1{
     width: 100%;
     margin-bottom:30px;
 }
-h2{
+section h2{
     font-size: 35px;
     font-style: italic;
     border-bottom: solid 3px;
@@ -455,7 +455,7 @@ width: auto;
 padding-left: 20px;
 padding-right: 20px;
 }
-h2{
+section h2{
     font-size: 25px;
 }
 header {

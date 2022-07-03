@@ -14,6 +14,7 @@
     <script src="../assets/js/wow.js"></script>
 
     <link rel="stylesheet" href="../assets/css/estilos.css" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
     <script>
         new WOW().init();
     </script>
@@ -44,46 +45,19 @@
     <div class="header-wrapper"></div>
     </header>
 <!--Fin header-->
-    <main>
+    <main class="formBGcolor">
         <section>
             <article>
                 <h1>Contacto</h1>
             </article>
         </section>
-        <div class="container formulario">
-            <form action="contacto.html" method="GET" enctype="application/x-www-form-urlencoded">
-                <fieldset>
-                  <legend>Datos Personales</legend>
-                    <label for="nombre">Nombre: </label>
-                    <input type="text" name="nombre" placeholder="Ingresa tu Nombre" />
-                    <label for="apellido">Apellido: </label>
-                    <input type="text" name="apellido" id="apellido" placeholder="Ingresa tu Apellido" />
-                    <br /><br />
-            
-                    <div>
-                      <label for="sexo">Sexo</label><br />
-                      <input type="radio" name="sexo" id="Hombre" value="Hombre" />
-                      <label for="Hombre">Hombre</label><br>
-                      <input type="radio" name="sexo" id="Mujer" value="Mujer" />
-                      <label for="Mujer">Mujer</label><br>
-                    </div>
-                    <br /><br />
-            
-                    <div>
-                      <label for="comentarios">Comentarios</label><br />
-                      <textarea name="comentarios" id="comentarios" rows="5" cols="40"></textarea>
-                    </div>
-                </fieldset>
-                <br /><br />
-        
-        
-                <br />
-                <div>
-                  <input type="submit" value="Enviar formulario"/>
-                  <input type="reset" value="Limpiar formulario"/>
-                </div>
-            </form>
-        </div>
+        <form class="form">
+            <h2>CONTACT US</h2>
+            <p type="Name:"><input placeholder="Write your name here.."></input></p>
+            <p type="Email:"><input placeholder="Let us know how to contact you back.."></input></p>
+            <p type="Message:"><input placeholder="What would you like to tell us.."></input></p>
+            <button>Send Message</button>
+          </form>
     </main>
     <footer>
         <img src="../assets/img/sv5.png" alt="Sebastian vettel logo" width="5%" id="footer--img" class="wow animate_animated animate__zoomIn" data-wow-duration="1s">
@@ -101,8 +75,7 @@
                                 <li><a href="contacto.html">Contacto</a></li>
                             </ul>
                         </div>
-                    </div>
-    
+                    </div>   
                     <div class="col-md-6 col-">
                         <div class="third">
                             <h4> Contacto</h4>
