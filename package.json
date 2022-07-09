@@ -5,11 +5,12 @@
   "name": "proyecto-final",
   "scripts": {
     "watch:css": "nodemon -e scss -x \"npm run build:css\"",
-    "build:css": "node-sass --output-style compressed assets/scss/estilos.scss assets/css/main.css"
+    "build:css": "node-sass --output-style compressed assets/scss/estilos.scss assets/css/main.css",
+    "watch:sass": "nodemon -e scss -x \"npm run build:sass\""
   },
   "version": "1.0.0",
   "devDependencies": {
     "node-sass": "^7.0.1",
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.19"
   }
 }
