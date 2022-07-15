@@ -209,3 +209,46 @@ footer div{
     margin-top:100px;
     margin-bottom:100px;
 }
+
+@media screen and (min-width: 992px){
+    .container h1{
+        margin-top:50px;
+        margin-bottom:50px;
+    }  
+    .hero {
+          height: 5rem;
+        }
+    .third {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            li {
+
+                font-size: 16px;
+            }
+            h4 {
+                margin-bottom: 10px;
+                font-size: 1em;
+                padding-bottom: 0.3em;
+            } 
+        }
+    .second li {
+            padding-bottom: 5px;
+        }
+        
+    .second a, .second2 a {
+            letter-spacing: 2px;
+            font-size: 15px;
+        }
+    .margin{
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    .second h4{
+        margin-bottom: 10px;
+        font-size: 1em;
+        padding-bottom: 0.3em;  
+    }
+
+
+        
+}
